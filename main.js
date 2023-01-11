@@ -1,8 +1,8 @@
 
-const calculate =(a,b,c)=>{
-    a=Number(prompt("birinci ededi daxil edin"));
-    b=Number(prompt("ikinci ededi daxil edin"));
-    c=prompt("emeli qeyd edin" , "vur , bol , topla, cix");
+const calculate =()=>{
+  let  a=Number(prompt("birinci ededi daxil edin"));
+  let  b=Number(prompt("ikinci ededi daxil edin"));
+  let  c=prompt("emeli qeyd edin" , "vur , bol , topla, cix");
     if(c=="vur"){
       console.log(a*b);
     }
